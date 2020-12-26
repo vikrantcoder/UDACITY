@@ -100,3 +100,15 @@ To extrapolate and find the mean we have to convert the line obtained in Image d
 ![solved](output_readme/solidWhiteRightsolved.png)
 
 Above algorithm works fine for videos as well considering videos are series of images.
+
+### Potential shortcomings with current pipeline
+
+Parameters like low_threshold,high_threshold required for canny edge detection and parameters required for hough transformations
+are hard coded and values might not be perfect always for diffenent light conditions.
+
+### Possible improvements to pipeline
+
+1. Making lane lines detectable in all weather conditions.
+2. Provide safe region for vehicle to travel between the lanes.
+
+
